@@ -19,6 +19,15 @@ var phrase2 =" slices of pizza at the party";
 //cout <<
 console.log(phrase1,slicesPerPerson,phrase2);
 
+//slices of pie part 2
+
+var slicesSparky = slicesPerPerson % 1;
+
+var phrase3 = "Sparky got ";
+var phrase4 = " slices of pizza.";
+
+console.log(phrase3,slicesSparky,phrase4);
+
 
 
 
