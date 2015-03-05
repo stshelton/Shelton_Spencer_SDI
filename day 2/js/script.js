@@ -123,12 +123,12 @@ var frogName = "kermit";
 console.log(frogName);
 
 // to double quote or to not double quote
-var phrase = 'i don\'t know';
+//var phrase = 'i don\'t know';
 var phrase = "i don't know";
 console.log(phrase);
 
 //escape character can also do multiple lines \n = new line
-var phrase2 = "i don;t know. \n you never do!";
+var phrase2 = "i don't know. \n you never do!";
 console.log(phrase2);
 
 //boolean - kind of like a light switch
@@ -151,9 +151,31 @@ var quiz3 = 90;
 var average = (quiz1 + quiz2 + quiz3)/3
 console.log(average);
 
+//concatenation - combining text strings
+// use the + plus sign - add and concatenation
+
+var firstName= "kermit";
+var lastName ="The Frog";
 
 
+var fullname = firstName+" " + lastName;
+console.log(fullname);
 
+var d = "6";
+var e = "7";
+var combined = d+e;
+
+console.log(combined);
+
+
+var pi= 3.14;
+
+//to round a number we use .toFixed(#)
+var num = 5.5678912345
+
+//round to 2 decimal places
+var n = num.toFixed(2);
+console.log(n);
 
 
 
