@@ -93,7 +93,66 @@ console.log(remainder)
 
 var evenOrOdd= 67%2;
 
-consloe.log(evenOrOdd);
+console.log(evenOrOdd);
+
+//assignment operators
+
+/*
+= assigns the value to the variable
+++ adds one to the current value of the variable
+-- subtracts one from the current value of the variable
++= # adds the number to the current value of the variable
+-= # subtracts the number to the current value of the variable
+/= # divide the current value by the number
+*= # multiply the current value by the number
+
+
+ */
+
+var assign = 0;
+
+// ++ is the same as the assign = assign + 1;
+assign++
+console.log(assign);
+
+//strings -- any text that we use
+// quotes are needed to distinguish between variables and plain text.
+
+var kermit = "light green ";
+var frogName = "kermit";
+console.log(frogName);
+
+// to double quote or to not double quote
+var phrase = 'i don\'t know';
+var phrase = "i don't know";
+console.log(phrase);
+
+//escape character can also do multiple lines \n = new line
+var phrase2 = "i don;t know. \n you never do!";
+console.log(phrase2);
+
+//boolean - kind of like a light switch
+// either true or false
+// not a text string!! and must be lowercase!!
+var yes = true;
+
+var nope = false;
+
+//order of operations
+// PEMDAS - please excuse my dear aunt sally
+// parenthesis, exponents, multiplication, division, addition, subtraction
+
+// find the average quiz grade
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 90;
+
+//average -add them up and divide by the number of quizes
+var average = (quiz1 + quiz2 + quiz3)/3
+console.log(average);
+
+
+
 
 
 
