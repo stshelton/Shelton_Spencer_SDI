@@ -30,7 +30,7 @@ console.log(phrase3,slicesSparky,phrase4);
 
 
 
-// shopping bill part 1 
+// shopping bill part 1
 
 var week1 = 200;
 var week2= 200;
@@ -43,10 +43,28 @@ var averageSpending = (week1+week2+week3+week4+week5)/5;
 
 
 // print out onto screen
-console.log("you have spent a total of $ ", totalShoppingBill, " on groceries over 5 weeks. That is an average of $ ", averageSpending," per week ");
+console.log("you have spent a total of $", totalShoppingBill, "on groceries over 5 weeks. That is an average of $ ", averageSpending," per week ");
 
 
+// discount item
 
+var originalPrice = 100;
+var discountPercentage = 20/100;
+var item = "cold air intake";
+var tax = 6/100;
+
+//tax
+var withTax = originalPrice * tax;
+
+// original price;
+var withoutTax = originalPrice;
+//discount
+var withDiscount = originalPrice * discountPercentage;
+//price with discount
+var discountPrice = originalPrice-withDiscount;
+//price with tax
+var taxPrice = discountPrice-withTax;
+console.log("your", item, "was originally $", withoutTax,"but after a",discountPercentage," discount, it is now",discountPrice, "without tax and $", taxPrice, "with tax.");
 
 
 
