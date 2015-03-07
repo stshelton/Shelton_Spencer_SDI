@@ -76,6 +76,3 @@ console.log("your", item, "was originally $", withoutTax,"but after a",discountP
 
 
 
-
-
-
