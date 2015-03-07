@@ -7,11 +7,13 @@
 
 // slices of pie part 1
 
-var SlicesPerPizza = 10;
-var PartyPeople = 10;
-var PizzasOrdered= 10;
+var slicesPerPizza = 10;
+var partyPeople = 8;
+var pizzasOrdered= 10;
 
-var slicesPerPerson = SlicesPerPizza/PartyPeople;
+var totalSlices = slicesPerPizza * pizzasOrdered;
+
+var slicesPerPerson = totalSlices/partyPeople;
 
 //phrases
 var phrase1 ="Each person ate ";
@@ -21,7 +23,7 @@ console.log(phrase1,slicesPerPerson,phrase2);
 
 //slices of pie part 2
 
-var slicesSparky = slicesPerPerson % 1;
+var slicesSparky = totalSlices%partyPeople;
 
 var phrase3 = "Sparky got ";
 var phrase4 = " slices of pizza.";
@@ -39,7 +41,7 @@ var week4= 150;
 var week5= 200;
 
 var totalShoppingBill = week1+week2+week3+week4+week5;
-var averageSpending = (week1+week2+week3+week4+week5)/5;
+var averageSpending = totalShoppingBill/5;
 
 
 // print out onto screen
@@ -49,9 +51,11 @@ console.log("you have spent a total of $", totalShoppingBill, "on groceries over
 // discount item
 
 var originalPrice = 100;
-var discountPercentage = 20/100;
+var discountPercentage = 20;
+var discountDecimal = discountPercentage/100;
 var item = "cold air intake";
-var tax = 6/100;
+var tax = 6;
+var taxDecimal = tax/100;
 
 //tax
 var withTax = originalPrice * tax;
@@ -59,11 +63,13 @@ var withTax = originalPrice * tax;
 // original price;
 var withoutTax = originalPrice;
 //discount
-var withDiscount = originalPrice * discountPercentage;
+var withDiscount = originalPrice * discountDecimal;
 //price with discount
 var discountPrice = originalPrice-withDiscount;
 //price with tax
-var taxPrice = discountPrice-withTax;
+var bleh = discountPrice * taxDecimal;
+
+var taxPrice = discountPrice+bleh;
 console.log("your", item, "was originally $", withoutTax,"but after a",discountPercentage," discount, it is now",discountPrice, "without tax and $", taxPrice, "with tax.");
 
 
