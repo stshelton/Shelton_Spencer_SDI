@@ -10,17 +10,24 @@
 
 
 // questions to ask user
-var question = prompts("How many points did you score in the 1st quarter?");
-var question2 = prompts("How many points did you score in the 2nd quarter?");
-var question3 = prompts("How many points did you score in the 3rd quarter?");
-var question4 = prompts("How many points did you score in the 4th quarter?");
+var questionArray=[];
+for(var i=1; i<5;i++ )
+{
+    questionArray[i] = prompt("How many points did you score in the" + i + "st quarter?")
+}
 
-//total score
-var totalScore = question+question2+question3+question4;
+for(var i=1; i<5;i++ )
+{
+    totalScore = parseInt(questionArray[i])+parseInt(question2)+parseInt(question3)+parseInt(question4);
+}
 //display total score
 console.log("your total score for this basketball game is "+totalScore);
+//average per quarter
+var averageScore = parseFloat(totalScore)/4;
+//display average per quarter
+console.log("your average per quarter is "+averageScore);
 
-var averageScore = totalScore/4;
+
 
 
 
