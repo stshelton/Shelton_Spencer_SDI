@@ -11,9 +11,10 @@
 
 // questions to ask user
 var questionArray=[];
+//for loop to display and store user input into array
 for(var i=1; i<5;i++ )
 {
-    questionArray[i] = prompt("How many points did you score in the" + i + "st quarter?")
+    questionArray[i] = prompt("How many points did you score in the" + i + " quarter?")
 }
 
 
@@ -26,7 +27,13 @@ console.log("your total score for this basketball game is "+totalScore);
 var averageScore = parseFloat(totalScore)/4;
 //display average per quarter
 console.log("your average per quarter is "+averageScore);
+console.log(questionArray);
 
+/*		I	typed	in	2,3,4,5	for	the 1st, 2nd, 3rd and 4th, quarter and my	calculator	gave	me
+ 14 for the total score  and 3.5 for the average points per quarter		*/
+
+/*		I	typed	in	10,20,30,34	for	the 1st, 2nd, 3rd and 4th, quarter and my	calculator	gave	me
+ 94 for the total score  and 23.5 for the average points per quarter		*/
 
 
 
