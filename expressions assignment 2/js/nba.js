@@ -20,13 +20,6 @@ for(var i=1; i<5;i++ )
 
 //adding the array together
 totalScore = parseInt(questionArray[1])+parseInt(questionArray[2])+parseInt(questionArray[3])+parseInt(questionArray[4]);
-//added if statement to display your a scrub if you score less then 10
-
-if(questionArray.length < 10);
-{
-    console.log("your a scrub ")
-}
-
 
 //display total score
 console.log("your total score for this basketball game is "+totalScore);
