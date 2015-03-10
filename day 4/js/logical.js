@@ -2,7 +2,7 @@
  Spencer Shelton
  3/10/15
  section 00
- conditionals
+ logical
  */
 
 
