@@ -38,7 +38,11 @@ if(kidHeight > 48)
     console.log("you can ride the ride ");
 
 }
+else if (kidHeight > 100 )
+{
+    console.log("your to tall to ride this ride");
+}
 else
 {
-    console.log("sorry your not tall enough")
+    console.log("sorry your not tall enough");
 }
