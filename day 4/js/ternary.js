@@ -46,7 +46,7 @@ if(age>10){
 
 }
 else{
-    bookBasic="you must read the time manchine";
+    bookBasic="you must read the time machine";
 }
 
 console.log(bookBasic);
