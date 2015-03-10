@@ -1,6 +1,6 @@
 /*
  Spencer Shelton
- 3/7/15
+ 3/10/15
  section 00
  conditionals
  */
@@ -46,3 +46,5 @@ else
 {
     console.log("sorry your not tall enough");
 }
+
+
