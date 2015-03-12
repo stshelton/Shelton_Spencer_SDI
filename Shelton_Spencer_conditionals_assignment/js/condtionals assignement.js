@@ -40,7 +40,17 @@ timesAWeek++;
 
 for(var i= 1; i < timesAWeek; i++)
 {
-    averageTime[i]= prompt("how many hours do you work out durning  your"+i+" of the week")
-    if(isNaN(averageTime))
+    averageTime[i] = prompt("how many hours do you work out durning your"+i+" of the week")
+
+    //input validation
+
+    if(isNaN(averageTime[i])||averageTime[i] =="")
+    {
+        averageTime[i] = prompt("please do not leave blank and only use numbers\n how many hours do your work out for this day!");
+
+    }
+
 }
+console.log(averageTime);
+
 
