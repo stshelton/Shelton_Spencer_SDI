@@ -34,8 +34,9 @@ for(var i=1; i > 0; i++) {
 
     if (isNaN(temp))
     {
-       temp[i] =prompt ("please only enter number ?"); //this code will run when temp is not a number
-        if (temp === Number) {
+       parseInt(temp)[i] =prompt ("please only enter number ?"); //this code will run when temp is not a number
+        if (!isNaN(temp))
+        {
             break;
         }
     }
@@ -114,7 +115,7 @@ else
         kids= kids.toLowerCase();
     }
     //do we have kids in the group
-    var kids = "no"
+
     //test if we have kids
     if(kids==="no"){
         console.log("lets see 50 shades of gray!");
