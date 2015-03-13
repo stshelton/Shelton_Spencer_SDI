@@ -34,23 +34,30 @@ else if(timesAWeek>=6)
 }
 
 
-var averageTime = [];
-//incrementing timesAWeek so for loop asks for the exact amount
+var timePerWeek = [];
+
+//incrementing timesAWeek so for loop asks for the exact amount that user inputed
 timesAWeek++;
 
 for(var i= 1; i < timesAWeek; i++)
 {
-    averageTime[i] = prompt("how many hours do you work out durning your"+i+" of the week")
+   timePerWeek[i] = prompt("how many hours do you work out durning your "+i+"  workout of the week")
 
     //input validation
 
-    if(isNaN(averageTime[i])||averageTime[i] =="")
+    if(isNaN(timePerWeek[i])||timePerWeek[i] =="")
     {
-        averageTime[i] = prompt("please do not leave blank and only use numbers\n how many hours do your work out for this day!");
+        timePerWeek[i] = prompt("please do not leave blank and only use numbers\n how many hours do your work out for this day!");
 
     }
 
 }
-console.log(averageTime);
 
+console.log(timePerWeek)
+//decrement times a week to its normal value, to use to divide to find there average
+parseInt(timesAWeek--);
+
+var averagePerWeek = (parseInt(timePerWeek[0])+parseInt(timePerWeek[1])+parseInt(timePerWeek[2])+parseInt(timePerWeek[3])+parseInt(timePerWeek[4])+parseInt(timePerWeek[5])+parseInt(timePerWeek[6]))/parseInt(timesAWeek);
+
+console.log("your average time at the gym was "+averagePerWeek+" hours a week");
 
