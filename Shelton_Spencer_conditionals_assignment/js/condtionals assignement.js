@@ -41,7 +41,7 @@ timesAWeek++;
 
 for(var i= 1; i < timesAWeek; i++)
 {
-   timePerWeek[i] = prompt("how many hours do you work out durning your "+i+"  workout of the week")
+   timePerWeek[i]= prompt("how many hours do you work out durning your "+i+"  workout of the week")
 
     //input validation
 
@@ -53,11 +53,40 @@ for(var i= 1; i < timesAWeek; i++)
 
 }
 
-console.log(timePerWeek)
+console.log(timePerWeek);
 //decrement times a week to its normal value, to use to divide to find there average
 parseInt(timesAWeek--);
-
-var averagePerWeek = (parseInt(timePerWeek[0])+parseInt(timePerWeek[1])+parseInt(timePerWeek[2])+parseInt(timePerWeek[3])+parseInt(timePerWeek[4])+parseInt(timePerWeek[5])+parseInt(timePerWeek[6]))/parseInt(timesAWeek);
-
-console.log("your average time at the gym was "+averagePerWeek+" hours a week");
+//variable to store average per week
+var averagePerWeek;
+//math problem for average time in a week you go to the gym
+//need if statements for amount of days you go
+if(timesAWeek == 1)
+{
+   averagePerWeek =  parseInt(timePerWeek[1])/parseInt(timesAWeek);
+}
+else if(timesAWeek == 2)
+{
+    averagePerWeek= (parseInt(timePerWeek[1])+parseInt(timePerWeek[2]))/parseInt(timesAWeek);
+}
+else if(timesAWeek == 3)
+{
+    averagePerWeek = (parseInt(timePerWeek[1])+parseInt(timePerWeek[2])+parseInt(timePerWeek[3]))/parseInt(timesAWeek);
+}
+else if(timesAWeek==4)
+{
+    averagePerWeek = (parseInt(timePerWeek[1])+parseInt(timePerWeek[2])+parseInt(timePerWeek[3])+parseInt(timePerWeek[4]))/parseInt(timesAWeek)
+}
+else if(timesAWeek == 5)
+{
+    averagePerWeek= (parseInt(timePerWeek[1])+parseInt(timePerWeek[2])+parseInt(timePerWeek[3])+parseInt(timePerWeek[4])+parseInt(timePerWeek[5]))/parseInt(timesAWeek);
+}
+else if(timesAWeek == 6)
+{
+    averagePerWeek = (parseInt(timePerWeek[1])+parseInt(timePerWeek[2])+parseInt(timePerWeek[3])+parseInt(timePerWeek[4])+parseInt(timePerWeek[5])+parseInt(timePerWeek[6]))/parseInt(timesAWeek);
+}
+else if(timesAWeek == 7) {
+    averagePerWeek = (parseInt(timePerWeek[7]) + parseInt(timePerWeek[1]) + parseInt(timePerWeek[2]) + parseInt(timePerWeek[3]) + parseInt(timePerWeek[4]) + parseInt(timePerWeek[5]) + parseInt(timePerWeek[6])) / parseInt(timesAWeek);
+}
+var e = parseInt(timesAWeek[0])+parseInt(timesAWeek[1]);
+console.log("your average time at the gym was "+parseInt(averagePerWeek)+" hours a week");
 
