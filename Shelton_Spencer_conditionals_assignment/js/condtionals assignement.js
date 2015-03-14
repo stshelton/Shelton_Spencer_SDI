@@ -90,3 +90,42 @@ else if(timesAWeek == 7) {
 var e = parseInt(timesAWeek[0])+parseInt(timesAWeek[1]);
 console.log("your average time at the gym was "+parseInt(averagePerWeek)+" hours a week");
 
+//question
+var favoriteMuscleGroup = prompt("What is your favorite muscle to work out");
+
+//input validation
+if(favoriteMuscleGroup == "" || favoriteMuscleGroup<0)
+{
+
+    while(favoriteMuscleGroup == "" ||favoriteMuscleGroup<0 )
+    {
+        favoriteMuscleGroup = prompt("please do not leave blank or answer with a number. What is your favorite muscle to work out ")
+    }
+}
+
+//if statement to help determine what muscle group is your favorite
+favoriteMuscleGroup = favoriteMuscleGroup.toLowerCase();
+
+if((favoriteMuscleGroup == "quad" || favoriteMuscleGroup== "legs") || (favoriteMuscleGroup == "calf" || favoriteMuscleGroup == "hamstring"))
+{
+    console.log("Ahh so i see your favorite day is legs.")
+    //
+    var weight
+
+}
+else if((favoriteMuscleGroup == "bicep"||favoriteMuscleGroup=="tricep")||(favoriteMuscleGroup== "shoulders" || favoriteMuscleGroup == "arms"))
+{
+    console.log("ok you like to work out them pretty boy muscles out, beach much?")
+}
+else if (favoriteMuscleGroup == "chest")
+{
+    console.log("ahh i see you favorite day is chest day")
+}
+else if(favoriteMuscleGroup == "back" || favoriteMuscleGroup == "lats")
+{
+    console.log("ahh i see your favorite day is back day")
+}
+
+
+
+
