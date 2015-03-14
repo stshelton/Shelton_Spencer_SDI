@@ -94,10 +94,10 @@ console.log("your average time at the gym was "+parseInt(averagePerWeek)+" hours
 var favoriteMuscleGroup = prompt("What is your favorite muscle to work out");
 
 //input validation
-if(favoriteMuscleGroup == "" || favoriteMuscleGroup<0)
+if(favoriteMuscleGroup == "" || favoriteMuscleGroup>0)
 {
 
-    while(favoriteMuscleGroup == "" ||favoriteMuscleGroup<0 )
+    while(favoriteMuscleGroup == "" ||favoriteMuscleGroup>0 )
     {
         favoriteMuscleGroup = prompt("please do not leave blank or answer with a number. What is your favorite muscle to work out ")
     }
@@ -109,8 +109,16 @@ favoriteMuscleGroup = favoriteMuscleGroup.toLowerCase();
 if((favoriteMuscleGroup == "quad" || favoriteMuscleGroup== "legs") || (favoriteMuscleGroup == "calf" || favoriteMuscleGroup == "hamstring"))
 {
     console.log("Ahh so i see your favorite day is legs.")
-    //
-    var weight
+    //question only if you answer legs
+    var weight = prompt("how much do you squat?")
+    if(isNaN(weight) || weight == "")
+    {
+
+        weight = "please do not leave blank and anwer with a number \n how much do you squat?";
+    }
+    
+    (weight >= 225) ? console.log("damn 225 or over, keep up the good work") : console.log("under 225?, just keep grinding your get there.");
+
 
 }
 else if((favoriteMuscleGroup == "bicep"||favoriteMuscleGroup=="tricep")||(favoriteMuscleGroup== "shoulders" || favoriteMuscleGroup == "arms"))
