@@ -116,7 +116,7 @@ if((favoriteMuscleGroup == "quad" || favoriteMuscleGroup== "legs") || (favoriteM
 
         weight = "please do not leave blank and anwer with a number \n how much do you squat?";
     }
-    
+    //ternary for the amount user puts in for the weight they squat
     (weight >= 225) ? console.log("damn 225 or over, keep up the good work") : console.log("under 225?, just keep grinding your get there.");
 
 
@@ -135,5 +135,6 @@ else if(favoriteMuscleGroup == "back" || favoriteMuscleGroup == "lats")
 }
 
 
-
+// i typed 5 days a week i wor out. 2,3,4,5,6 for the hours a day of those 5 days. which is an average of 4 hours a day. typed in legs for favorite workout. went to ternary.
+// typed 225 and it produced the right out come 
 
