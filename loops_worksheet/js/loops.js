@@ -25,8 +25,8 @@ while(oilChange == "" || isNaN(oilChange))
 
 }
 
+//do while to calculate next milage to get oil changed
 
-//do while to calculate the next time you need oil changed 
 while( oilChange <= 100000)
 {
     var total = parseInt(oilChange) + 6000;
@@ -36,5 +36,18 @@ while( oilChange <= 100000)
     console.log("your next oil change will be at "+oilChange+" miles")
 }
 
+//average miles driven in a week
+
+var milesDriven = [];
+
+for(var i = 1;i<8;i++)
+{
+    milesDriven[i]= prompt("how many miles did you drive on day #"+i)
+    while(milesDriven[i] == ""||isNaN(milesDriven[i]))
+    {
+        milesDriven[i] = prompt("please type a number and do not leave blank. How many miles did you drive on day #"+i)
+    }
+}
+console.log(milesDriven);
 
 
