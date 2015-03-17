@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f509a424-d2fe-40b0-b010-c1650d04b1cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day 7/js/day 7 beer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loops_worksheet/js/loops.js" afterPath="$PROJECT_DIR$/loops_worksheet/js/loops.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Shelton_Spencer_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +79,8 @@
       <file leaf-file-name="loops.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loops_worksheet/js/loops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7111111" vertical-offset="90" max-vertical-offset="765">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.73333335" vertical-offset="90" max-vertical-offset="765">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -653,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loops_worksheet/js/loops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7111111" vertical-offset="90" max-vertical-offset="765">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.73333335" vertical-offset="90" max-vertical-offset="765">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
