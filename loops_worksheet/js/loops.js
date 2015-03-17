@@ -37,7 +37,7 @@ for(var i = 0; i < 5 ; i++)
 {
 
         upcomingOilChange[i] = parseInt(oilChange) + 3000;
-    
+
 }
 
 console.log(upcomingOilChange);
