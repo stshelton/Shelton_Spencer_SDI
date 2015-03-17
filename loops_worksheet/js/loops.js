@@ -25,26 +25,16 @@ while(oilChange == "" || isNaN(oilChange))
 
 }
 
-//array to hold miles of when to change oil
-var upcomingOilChange = [];
-var addedMiles;
 
-parseInt(oilChange);
-
-//for loop to add 3000 miles to the existing miles to know when to change your oil till 100,000 miles
-
-for(var i = 0; i < 5 ; i++)
+//do while to calculate the next time you need oil changed 
+while( oilChange <= 100000)
 {
-    for(var j = parseInt(oilChange); j < 1000000; j+=30000) {
-        upcomingOilChange[i] = j;
-    }
+    var total = parseInt(oilChange) + 6000;
+
+  oilChange = total;
+
+    console.log("your next oil change will be at "+oilChange+" miles")
 }
 
-for(var i = parseInt(oilChange); i < 1000000; i+=30000)
-{
-    console.log(i);
-}
-
-console.log(upcomingOilChange);
 
 

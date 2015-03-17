@@ -40,3 +40,5 @@ console.log("after the function call, width ="+width)
 
 //wont work cz perimeter is inside of function
 //console.log("outside of the function, the perimeter is "+perimeter
+
+
