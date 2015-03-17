@@ -24,8 +24,27 @@ for(var i= 0; i<names.length; i++){
 }
 
 //keep track of our bills and get total an average
+var total;
+var bills =[50,10,5,20,10, 60, 70];
 
-var bills =[50,10,5,20,10];
+//create a variable to track the itme total
+var numItems = 0;
 
-for
+for( var j = 0; j <bills.length; j++)
+{
+    //only add them if they are equal or over 15
+    if( bills[j]>= 15) {
+        //add each bill to the total
+        total += bills[j];
+        //if above 15 it will add to items
+        numItems++;
+    }
+
+}
+
+console.log("the total is "+total);
+
+average = total/numItems;
+
+console.log("the total is"+average);
 
