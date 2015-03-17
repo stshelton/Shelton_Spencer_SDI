@@ -13,7 +13,7 @@ function circumferenceOfCircle(radius)
 {
     var diameter = 2 * radius;
     var circumference = diameter * Math.PI;
-    
+
 
     console.log("the circumference of the circle is "+circumference);
 
@@ -23,3 +23,6 @@ function circumferenceOfCircle(radius)
 var catchCircumference = circumferenceOfCircle(radius);
 
 console.log("your circumference out of the function is "+catchCircumference);
+
+var weight = prompt("how much do you weigh")
+
