@@ -41,6 +41,7 @@ for(var i= 1; i<=days; i++)
 
 var numDays = 1;
 
+
 while(numZombies <= 1000000)
 {
     //how many new zombies get made everyday
