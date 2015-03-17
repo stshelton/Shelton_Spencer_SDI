@@ -31,11 +31,14 @@ var weight = prompt("how much do you weigh")
 
 function beesToDeath(w)
 {
+    //math
     var totalNumber= w * 8.666666667
-
-    console.log("If you weighed"+weight+"ilbs then it would take you"+totalNumber"of bees ")
+//display
+    console.log("If you weighed "+weight+" ilbs then it would take you "+totalNumber+" of bees ");
     return totalNumber;
 
 }
 
 var bees = beesToDeath(weight)
+
+console.log("outside of function you would die from "+bees+" of bees!")
