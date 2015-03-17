@@ -33,4 +33,17 @@ function name (spencer, rime ){
 
 name(4,5);
 
+//create a function that calculates the area of a rectangle
+
+function calcArea()
+{
+    //create variables for width, height, and area
+    var width = 20;
+    var height = 30;
+    var area = width * height;
+
+    console.log("the area is "+area);
+}
+calcArea();
+
 

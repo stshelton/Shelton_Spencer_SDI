@@ -35,9 +35,9 @@ parseInt(oilChange);
 
 for(var i = 0; i < 5 ; i++)
 {
-    for(var j = parseInt(oilChange); j < 1000000; j+=30000)
+    for(var j = parseInt(oilChange); j < 1000000; j+=30000) {
         upcomingOilChange[i] = j;
-
+    }
 }
 
 for(var i = parseInt(oilChange); i < 1000000; i+=30000)
