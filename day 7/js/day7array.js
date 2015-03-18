@@ -28,7 +28,7 @@ for(var i= 0; i<names.length; i++){
 var bills =[50,10,5,20,10, 60, 70];
 //create a variable to track the itme total
 var numItems = 0;
-var total;
+var total= 0;
 
 for( var j = 0; j <bills.length; j++)
 {

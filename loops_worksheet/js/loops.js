@@ -35,7 +35,7 @@ var milesDriven = [];
 //for loop to put amount of miles they drove each day into an array to latter be added togther
 for(var i = 1;i<8;i++)
 {
-    milesDriven[i]= prompt("how many miles did you drive on day #"+i);
+   milesDriven[i]= prompt("how many miles did you drive on day #"+i);
     //user validation
     while(milesDriven[i] == ""||isNaN(milesDriven[i]))
     {
@@ -43,14 +43,9 @@ for(var i = 1;i<8;i++)
     }
 }
 console.log(milesDriven);
-
-//for loop to added all values together in array
-for(var i= 0; i<milesDriven.length; i++)
-{
-    var total= parseInt(milesDriven)[i] + parseInt(total);
-}
-console.log(total);
-
+//math
+var total = parseInt(milesDriven[1])+parseInt(milesDriven[2])+parseInt(milesDriven[3])+parseInt(milesDriven[4])+parseInt(milesDriven[5])+parseInt(milesDriven[6])+parseInt(milesDriven[7]);
+//
 var averagePerWeek = parseInt(total)/7;
 
 console.log("your average miles driven in a week is "+averagePerWeek);
