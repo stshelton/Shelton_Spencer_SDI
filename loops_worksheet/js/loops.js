@@ -60,7 +60,7 @@ do
     averagePerWeek--
 
 }while(averagePerWeek >= 2);
-
+// while loop
 console.log("If you travel "+counter+" less a week then you'll have traveled less then or equal to 2");
 
 
