@@ -44,10 +44,27 @@ for(var i = 1;i<8;i++)
 }
 console.log(milesDriven);
 //math
-var total = parseInt(milesDriven[1])+parseInt(milesDriven[2])+parseInt(milesDriven[3])+parseInt(milesDriven[4])+parseInt(milesDriven[5])+parseInt(milesDriven[6])+parseInt(milesDriven[7]);
-//
-var averagePerWeek = parseInt(total)/7;
+var total2 = parseInt(milesDriven[1])+parseInt(milesDriven[2])+parseInt(milesDriven[3])+parseInt(milesDriven[4])+parseInt(milesDriven[5])+parseInt(milesDriven[6])+parseInt(milesDriven[7]);
+
+var averagePerWeek = parseInt(total2)/7;
 
 console.log("your average miles driven in a week is "+averagePerWeek);
+
+var counter = 0
+
+
+//do while loop
+do
+{
+    counter++
+    averagePerWeek--
+
+}while(averagePerWeek >= 2);
+
+console.log("If you travel "+counter+" less a week then you'll have traveled less then or equal to 2");
+
+
+
+
 
 

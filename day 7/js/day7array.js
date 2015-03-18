@@ -49,3 +49,4 @@ average = total/numItems;
 
 console.log("the total is"+average);
 
+
