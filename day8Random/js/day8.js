@@ -35,3 +35,11 @@ function getRandom(min, max)
 
 }
 
+
+for(var i = 0; i<15; i++)
+{
+    //wont work will repeat answer 15 times
+    //console.log(ranNumber)
+
+    console.log(getRandom(min,max));
+}
