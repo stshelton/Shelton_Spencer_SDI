@@ -5,5 +5,13 @@
  function assignment
  */
 
+//1st question
+var MPG = prompt("How fast are you going?");
+//input validation
+while(MPG ==="" || isNaN(MPG))
+{
+    MPG = prompt("please don't not leave blank and type in a number? ")
+}
 
-var sizeOfRoom = prompt("how ")
+//2nd question
+var MilesGoing = prompt("how far do you plan on going in miles")
