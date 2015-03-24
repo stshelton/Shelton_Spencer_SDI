@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f509a424-d2fe-40b0-b010-c1650d04b1cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shelton_Spencer_function_assignment/function assignment.html" afterPath="$PROJECT_DIR$/Shelton_Spencer_function_assignment/function assignment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shelton_Spencer_function_assignment/js/functions.js" afterPath="$PROJECT_DIR$/Shelton_Spencer_function_assignment/js/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day8Random/day 8 annoymous.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day8Random/js/day 8 annoymous.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Shelton_Spencer_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,28 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="loops_worksheet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loops_worksheet/loops_worksheet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loops.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loops_worksheet/js/loops.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1140">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="conditionals_assignment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shelton_Spencer_conditionals_assignment/conditionals_assignment.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,14 +60,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shelton_Spencer_function_assignment/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6" vertical-offset="45" max-vertical-offset="720">
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="720">
               <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day 8 annoymous.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day8Random/js/day 8 annoymous.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51111114" vertical-offset="255" max-vertical-offset="1200">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day 8 annoymous.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day8Random/day 8 annoymous.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day 2/day 2 .html" />
-        <option value="$PROJECT_DIR$/day 2/js/script.js" />
         <option value="$PROJECT_DIR$/Day3LabExpressions./day2labexpressions.html" />
         <option value="$PROJECT_DIR$/Day3LabExpressions./js/script.js" />
         <option value="$PROJECT_DIR$/day 3/day3Arrays.html" />
@@ -196,6 +195,8 @@
         <option value="$PROJECT_DIR$/day8Random/js/day8 procedures.js" />
         <option value="$PROJECT_DIR$/Shelton_Spencer_function_assignment/function assignment.html" />
         <option value="$PROJECT_DIR$/Shelton_Spencer_function_assignment/js/functions.js" />
+        <option value="$PROJECT_DIR$/day8Random/day 8 annoymous.html" />
+        <option value="$PROJECT_DIR$/day8Random/js/day 8 annoymous.js" />
       </list>
     </option>
   </component>
@@ -469,20 +470,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loops_worksheet/loops_worksheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loops_worksheet/js/loops.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1140">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -576,7 +569,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="435">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,7 +794,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,8 +863,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shelton_Spencer_function_assignment/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6" vertical-offset="45" max-vertical-offset="720">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="720">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day8Random/day 8 annoymous.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day8Random/js/day 8 annoymous.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51111114" vertical-offset="255" max-vertical-offset="1200">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
