@@ -6,12 +6,22 @@
  */
 
 //1st question
-var MPG = prompt("How fast are you going?");
+var MPh = prompt("How fast are you going?");
 //input validation
-while(MPG ==="" || isNaN(MPG))
+while(MPh ==="" || isNaN(MPh))
 {
-    MPG = prompt("please don't not leave blank and type in a number? ")
+    MPh = prompt("please don't not leave blank and type in a number? ");
 }
 
 //2nd question
-var MilesGoing = prompt("how far do you plan on going in miles")
+var milesGoing = prompt("how far do you plan on going in miles? ");
+//input validation
+while(milesGoing ==="" || isNaN(milesGoing))
+{
+    MPG = prompt("please don't not leave blank and type in a number? ");
+}
+//function to find amount of time traveled
+function timeToTravel(M,MG)
+{
+
+}
