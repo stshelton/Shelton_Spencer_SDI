@@ -10,8 +10,16 @@
 
 //create variables for min and max values
 
-var min = prompt("min value?");
-var max = prompt("max value");
+var min = prompt("lets find a random number between two values\nmin value?");
+while(isNaN(min) || min ==="")
+{
+   min = prompt("please enter a number and do not leave blank.")
+}
+var max = prompt("max value?");
+while(isNaN(max)|| max === "" || parseInt(max) <= parseInt(min) )
+{
+    max = prompt("please enter a number bigger then the min and do not leave blank. ")
+}
 
 //function call
 var randomNumber = getRandom(min, max);
@@ -21,7 +29,8 @@ console.log("your random number between "+min+" and "+max+" is "+randomNumber);
 function getRandom(min, max)
 {
     //generate a random integer
-    var ranNumber = Math.round(Math.random()*(max-min)+min);
+    var ranNumber = Math.round(Math.random()*(max-min)+parseInt(
+    min));
     return ranNumber;
 
 }
