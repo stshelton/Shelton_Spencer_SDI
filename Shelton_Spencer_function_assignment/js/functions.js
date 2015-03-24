@@ -18,10 +18,25 @@ var milesGoing = prompt("how far do you plan on going in miles? ");
 //input validation
 while(milesGoing ==="" || isNaN(milesGoing))
 {
-    MPG = prompt("please don't not leave blank and type in a number? ");
+    milesGoing = prompt("please don't not leave blank and type in a number? ");
 }
 //function to find amount of time traveled
 function timeToTravel(M,MG)
 {
+    var time = MG/M;
 
+    return time;
 }
+//call function
+var time = timeToTravel(MPh,milesGoing);
+
+//log results
+if(time < 1)
+{
+    console.log("it will take you " + time + "minutes to get to your destination");
+}
+else
+{
+    console.log("it will take you " + time + "hours to get to your destination")
+}
+
