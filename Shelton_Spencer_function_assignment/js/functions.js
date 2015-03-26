@@ -80,5 +80,5 @@ var Gas = function(Gl,Mpg,MG)
 
 var gasLeft=Gas(gallonsLeftInTank,mpg,milesGoing);
 
-console.log("You have "+gasLeft[0]+" miles left in your tank, your miles per gallon is "+gasLeft[1]+" and you are  "+gasLeft[2]+" miles away from your destination.")
+console.log("You have "+gasLeft[0]+" miles left in your tank, your miles per gallon is "+gasLeft[2]+" and you are  "+gasLeft[1]+" miles away from your destination.")
 

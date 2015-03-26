@@ -26,6 +26,17 @@ do {
 
 }while(pizzaCost ===""||isNaN(pizzaCost));
 
+do{
+    var pizzaSlices = prompt("how many slices do you want.")
+}while(pizzaSlices===""||isNaN(pizzaSlices));
+
+
+//function call to lordFunction
+var results = lordFunctionShtien(pizzaRadius,pizzaCost,pizzaSlices);
+
+//print results to screen
+console.log("Your pizza costs $"+results[0]+" per sq inch or $"+results[1]+" per slice.");
+
 
 
 //this function will call the other three functions then return the values
@@ -37,8 +48,13 @@ function lordFunctionShtien(radius, cost, slices)
     var area = pizzaArea(radius);
 
     //call the pizza cost function
-    var cost = pizzaSqInCost(area,cost);
+    var areaCost = pizzaSqInCost(area,cost);
 
+    //call the slices per pirce
+    var slicePrice = pricePerSlice(slices, cost)
+
+    //return these answer to our main code
+    return[areaCost,slicePrice]
 
 
 }
@@ -61,6 +77,8 @@ function pizzaSqInCost(area,price){
 
     //we should round this number to 2 decimal places
     costPerSqIn = costPerSqIn.toFixed(2);
+
+    return costPerSqIn;
 }
 
 //function to calc price per slice
@@ -72,5 +90,5 @@ function pricePerSlice(s,c)
 
     //round to 2 decimal places
     costPerSlice = costPerSlice.toFixed(2);
-
+return costPerSlice;
 }
