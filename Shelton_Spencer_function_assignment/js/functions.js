@@ -6,7 +6,7 @@
  */
 
 //1st question
-var MPh = prompt("How fast are you going?");
+var MPh = prompt("Lets see how long it will take you to get to you destination. \nHow fast are you going?");
 //input validation
 while(MPh ==="" || isNaN(MPh))
 {
@@ -41,7 +41,7 @@ else
 }
 
 // 3rd prompt
-var gallonsLeftInTank = prompt("how many gallons do you have left in you tank?");
+var gallonsLeftInTank = prompt("Lets see if you need gas to get to your destination. \nhow many gallons do you have left in you tank?");
 
 //input validation
 while(gallonsLeftInTank ==="" || isNaN(gallonsLeftInTank))
@@ -50,7 +50,7 @@ while(gallonsLeftInTank ==="" || isNaN(gallonsLeftInTank))
 }
 
 //4th prompt
-var mpg = prompt("what is your gas mile per gallon. ");
+var mpg = prompt("what is your mile per gallon. ");
 
 //input validation
 while(mpg ===""||isNaN(mpg))
@@ -73,12 +73,12 @@ var Gas = function(Gl,Mpg,MG)
         console.log("you should get gas asap you will not make it"+MG+" miles.")
     }
 
-    return [totalGasLeft, Gl,Mpg];
+    return [totalGasLeft, MG,Mpg];
 
 
 }
 
 var gasLeft=Gas(gallonsLeftInTank,mpg,milesGoing);
 
-console.log("You have "+gasLeft[0]+" left in your tank, your miles per gallon is "+gasLeft[1]+" and you are  "+gasLeft[2]+" miles away from your destination.")
+console.log("You have "+gasLeft[0]+" miles left in your tank, your miles per gallon is "+gasLeft[1]+" and you are  "+gasLeft[2]+" miles away from your destination.")
 
