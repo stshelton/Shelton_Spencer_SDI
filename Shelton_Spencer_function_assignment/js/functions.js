@@ -70,7 +70,7 @@ var Gas = function(Gl,Mpg,MG)
     }
     else
     {
-        console.log("you should get gas asap you will not make it"+MG+" miles.")
+        console.log("you should get gas asap you will not make it "+MG+" miles.")
     }
 
     return [totalGasLeft, MG,Mpg];
@@ -82,3 +82,5 @@ var gasLeft=Gas(gallonsLeftInTank,mpg,milesGoing);
 
 console.log("You have "+gasLeft[0]+" miles left in your tank, your miles per gallon is "+gasLeft[2]+" and you are  "+gasLeft[1]+" miles away from your destination.")
 
+// i typed in 50 mph, my destination was 150 miles away, and it printed that it would take 3 hours. then i typed in 10 miles left in my tank and typed 10 for miles per gallon
+// it then printed the distance i would go with the amount of gas i  had which would only be 100 miles. which triggered the if statement telling you to get gas
