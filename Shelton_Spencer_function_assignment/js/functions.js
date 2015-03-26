@@ -33,10 +33,52 @@ var time = timeToTravel(MPh,milesGoing);
 //log results
 if(time < 1)
 {
-    console.log("it will take you " + time + "minutes to get to your destination");
+    console.log("it will take you " + time + " minutes to get to your destination");
 }
 else
 {
-    console.log("it will take you " + time + "hours to get to your destination")
+    console.log("it will take you " + time + " hours to get to your destination");
 }
+
+// 3rd prompt
+var gallonsLeftInTank = prompt("how many gallons do you have left in you tank?");
+
+//input validation
+while(gallonsLeftInTank ==="" || isNaN(gallonsLeftInTank))
+{
+    gallonsLeftInTank = prompt("please do not leave blank and enter a number.\n how many miles do you have left in you tank?");
+}
+
+//4th prompt
+var mpg = prompt("what is your gas mile per gallon. ");
+
+//input validation
+while(mpg ===""||isNaN(mpg))
+{
+    mpg = prompt("please do not leave blank and enter a number.\n what is your gas miles per gallon.")
+
+}
+//anon function to find out if gas is needed
+var Gas = function(Gl,Mpg,MG)
+{
+    //finding total amount of gas left
+    var totalGasLeft =Gl*Mpg;
+//if statement to display weather or not they need gas
+    if(totalGasLeft > MG)
+    {
+        console.log("you do not need to get gas")
+    }
+    else
+    {
+        console.log("you should get gas asap you will not make it"+MG+" miles.")
+    }
+
+    return [totalGasLeft, Gl,Mpg];
+
+
+}
+
+var gasLeft=Gas(gallonsLeftInTank,mpg,milesGoing);
+
+console.log("You have "+gasLeft[0]+" left in your tank, your miles per gallon is "+gasLeft[1]+" and you are  "+gasLeft[2]+" miles away from your destination.")
 
