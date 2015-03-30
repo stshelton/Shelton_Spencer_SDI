@@ -60,7 +60,7 @@ while(mpg ===""||isNaN(mpg))
 }
 //anon function to find out if gas is needed
 var Gas = function(Gl,Mpg,MG)
-{
+{ 
     //finding total amount of gas left
     var totalGasLeft =Gl*Mpg;
 //if statement to display weather or not they need gas
